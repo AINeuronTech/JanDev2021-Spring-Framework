@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="toyota" class="aint.electronics.Toyota">
+        <constructor-arg value="Corolla-Ext"/>
+        <constructor-arg value="2021"/>
+    </bean>
+
+<!--    <bean id = "carModelType" class="aint.electronics.Car">-->
+<!--        <property name="model" value="Corolla"/>-->
+<!--    </bean>-->
+
+<!--    <bean id = "carMakeYear" class="aint.electronics.Car">-->
+<!--        <property name="year" value="2021"/>-->
+<!--    </bean>-->
+
+</beans>
